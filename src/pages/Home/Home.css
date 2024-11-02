@@ -1,0 +1,43 @@
+.homeForm,
+.homeDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.homeForm table {
+    padding: 20px;
+}
+
+.homeForm table input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #8e9aaf;
+}
+
+
+.homeForm table input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #c5dedd;
+}
+
+.homeForm .submit {
+    padding: 7px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.logout button {
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+    background-color: black;
+    color: #FCF6F5FF;
+}
